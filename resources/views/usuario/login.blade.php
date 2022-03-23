@@ -10,7 +10,7 @@
         <div class="wrapper container-fluid">
             <form action={{route('login')}} method="POST" class="form-signin">
 
-                <h2 class="form-login-heading"> <img src="/img/logo.png"> </h2>
+                <h2 class="form-login-heading"> <img src="./img/newLogo.png"> </h2>
                 <hr class="colorgraph"><br>
                 <div class="form-group {{ $errors->has('email') ? ' has-error' : '' }}">
                     <label for="email" class="control-label">E-mail: </label>
@@ -42,8 +42,8 @@
                     @endif
                 </div>
                 {{csrf_field()}}
-                <button id="entrar" type="submit" class="btn btn-lg btn-primary btn-block "> Entrar </button>
-                <a class="btn btn-link" href="{{ route('password.request') }}">
+                <button id="entrar" style="background: #00a859; color: white; width: 150px; margin: auto" type="submit" class="btn btn-lg btn-block "> Entrar </button>
+                <a class="btn btn-link" style="color: #373435" href="{{ route('password.request') }}">
                     Esqueceu sua senha?
                 </a>
             </form>
