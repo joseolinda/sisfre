@@ -79,7 +79,7 @@
                                             <td class="text-center" style="vertical-align: middle;"> {{ $curso->nome }} </td>
                                             <td class="text-center" style="vertical-align: middle;"> {{ $curso->sigla }} </td>
                                             <td class="text-center" style="vertical-align: middle;"> {{ $curso->tipo }} </td>
-                                            <td class="text-center" style="vertical-align: middle;"> {{ $curso->coordenador->usuario->username or '-' }} </td>
+                                            <td class="text-center" style="vertical-align: middle;"> @php echo $coord_name @endphp </td>
                                             <td class="text-center" style="vertical-align: middle;">
                                                 <div class="btn-group btn-group-xs btn-group-vertical btn-block">
                                                     <a class='btn btn-info' href="{{route('curso.edit',$curso->id)}}">
