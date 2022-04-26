@@ -223,3 +223,13 @@ input[type="password"] {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
+
+.add-icon {
+  font-size: 30px;
+  position: absolute;
+  border: 4px solid #fff;
+  border-radius: 20px;
+  background-color: #fff;
+  margin-top: 90px;
+  margin-left: -70px;
+}
