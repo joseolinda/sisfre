@@ -16,8 +16,8 @@
     ],
     "env": {
         "APP_NAME": "Vercel Laravel",
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_ENV": "local",
+        "APP_DEBUG": "true",
         "APP_KEY": "base64:BkZCMJC02JhBG1+w9zyEfqkkNSS5Zke0ILw0tr7chq0=",
         "APP_URL": "https://sisfre.vercel.app",
         "VERCEL_DEMO_MODE": "true",
