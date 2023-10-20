@@ -18,3 +18,5 @@ yarn-error.log
 sisfre_*/
 sisfre.zip
 composer.lock
+composer.phar
+composer.lock
