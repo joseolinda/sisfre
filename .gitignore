@@ -1,8 +1,9 @@
 /node_modules
-/public/hot
-/public/storage
+/html/hot
+/html/storage
 /html/arquivos
 /storage/*.key
+/storage/framework/*
 /vendor
 .env
 .env.backup
