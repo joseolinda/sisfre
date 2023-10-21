@@ -49,11 +49,6 @@ return [
             'read-only' => true,
         ],
 
-        'local_temp' => [
-            'driver' => 'local',
-            'root' => storage_path('/tmp/storage/framework/views'),
-        ],
-
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/html'),
