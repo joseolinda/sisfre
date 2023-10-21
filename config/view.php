@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'compiled' => realpath(env('VIEW_COMPILED_PATH', '/tmp/storage/framework/views')),
+    'compiled' => realpath(storage_path('/framework/views')),
     'cache' => [
         'store' => 'local_temp', // Use o sistema de arquivos local criado
     ],

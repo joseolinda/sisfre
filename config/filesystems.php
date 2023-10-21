@@ -51,7 +51,7 @@ return [
 
         'local_temp' => [
             'driver' => 'local',
-            'root' => '/tmp/storage/framework/views',
+            'root' => storage_path('/tmp/storage/framework/views'),
         ],
 
         'public' => [
