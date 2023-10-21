@@ -33,5 +33,5 @@
         "SSR_TEMP_PATH": "/tmp/ssr",
         "NODE_PATH": "node"
     }, 
-    "buildCommand": "php composer.phar install --no-dev --no-interaction --ignore-platform-reqs && php artisan cache:clear && php artisan config:cache && php artisan route:cache && php artisan view:cache"
+    "buildCommand": "php composer.phar install --no-dev --no-interaction --ignore-platform-reqs && php artisan cache:clear"
 }
