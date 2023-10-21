@@ -2,14 +2,14 @@
     "version": 2,
     "framework": null,
     "functions": {
-        "api/index.php": {
+        "html/index.php": {
             "runtime": "vercel-php@0.6.0"
         }
     },
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "html/index.php"
         }
     ],
     "env": {
@@ -26,6 +26,5 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    },
-    "buildCommand": "php artisan config:cache && php artisan route:cache && php artisan view:cache"
+    }
 }
