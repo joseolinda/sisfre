@@ -28,6 +28,6 @@ return [
     |
     */
 
-    'compiled' => 'tmp/views',
+    'compiled' => '/tmp/views',
 
 ];
