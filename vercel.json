@@ -6,7 +6,7 @@
             "runtime": "vercel-php@0.6.0"
         },
         "public/**": {
-            "runtime": "@vercel/static"
+            "runtime": "@vercel/static@1.2.0"
         }	
     },
     "routes": [
