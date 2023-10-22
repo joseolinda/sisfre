@@ -7,10 +7,17 @@
         },
         "api/assets.php": {
             "runtime": "vercel-php@0.6.0"
+        },
+        "api/phpinfo.php": {
+            "runtime": "vercel-php@0.6.0"
         }	
     },
     "routes": [
         {
+            "src": "/phpinfo",
+            "dest": "api/phpinfo.php"
+        }
+        ,{
             "src": "/(css|js|img|fonts)/(.*)",
             "dest": "api/assets.php"
         },
