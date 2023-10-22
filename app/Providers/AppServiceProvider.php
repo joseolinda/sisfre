@@ -18,8 +18,10 @@ class AppServiceProvider extends ServiceProvider
         /*
         if (! is_dir(config('view.compiled'))) { 
             mkdir(config('view.compiled'), 0755, true); 
-        }
-        */
+        }*/
+        if($this->app->environment('production')) {
+    \URL::forceScheme('https');
+}
     }
 
     /**
