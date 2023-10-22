@@ -31,11 +31,6 @@
 </head>
 
 <body>
-  <h1>
-    URL: {{ Request::url() }} <br>
-    URL: {{ asset('js/jquery-3.2.1.min.js') }} <br>
-    URL: {{ parse_url(asset('js/jquery-3.2.1.min.js'), PHP_URL_PATH) }} <br>
-  </h1>
 <div class="container">
     @if (Route::has('login'))
 
